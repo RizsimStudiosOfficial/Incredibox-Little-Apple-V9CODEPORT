@@ -6,7 +6,7 @@
     --box-bottom-height-int: 33;
     --box-top-height-pct: calc(var(--box-top-height-int) * 1%);
     --box-bottom-height-pct: calc(var(--box-bottom-height-int) * 1%);
-    --colV1: #5f5f5f;
+    --colV1: #FE0000;
     --colV2: #c32d2d;
     --colV3: #3c646e;
     --colV4: #ba7b3d;
@@ -2858,7 +2858,7 @@ video::-webkit-media-controls {
     touch-action: none;
 }
 .v1.darkmode #box-bottom #box-picto .picto {
-    background-color: #666;
+    background-color: none;
 }
 .v2.darkmode #box-bottom #box-picto .picto {
     background-color: #666;
@@ -3485,7 +3485,7 @@ video::-webkit-media-controls {
 .pop#pop-mod .container #img-modcredit {
 	width: 600px;
 	height: 340px;
-    background-image: url(../img/creditshit/credit-rizdidcodeong.png);
+    background-image: url(../img/creditshit/littleapplecredits.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
